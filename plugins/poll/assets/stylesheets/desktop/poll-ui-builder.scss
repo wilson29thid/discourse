@@ -7,6 +7,14 @@
     max-height: unset;
   }
 
+  .poll-number {
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
   .options {
     display: flex;
     justify-content: space-between;
